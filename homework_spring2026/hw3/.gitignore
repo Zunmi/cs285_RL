@@ -1,0 +1,12 @@
+__pycache__/
+dist/
+*.py[cod]
+*$py.class
+*.egg-info/
+.DS_Store
+.idea/
+.venv/
+.ruff_cache/
+
+exp/
+hw3.pdf

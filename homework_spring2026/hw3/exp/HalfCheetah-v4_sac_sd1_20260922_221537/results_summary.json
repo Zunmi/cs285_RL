@@ -1,0 +1,39 @@
+{
+  "run": "HalfCheetah-v4_sac_sd1_20260922_221537",
+  "completed_environment_steps": 1000000,
+  "completion_evidence": "Saved W&B output.log reports 1000000/1000000",
+  "training_loop_seconds": 22191,
+  "seed": 1,
+  "temperature": 0.1,
+  "auto_tune_temperature": false,
+  "number_of_critics": 1,
+  "evaluation_episodes_per_checkpoint": 10,
+  "evaluation_count": 200,
+  "first_mean_at_least_6000": {
+    "step": 265000,
+    "return": 6056.7646
+  },
+  "peak_mean": {
+    "step": 910000,
+    "return": 9664.596
+  },
+  "last_evaluation": {
+    "step": 995000,
+    "return": 9499.073,
+    "episode_std": 53.128082
+  },
+  "last_10_evaluations": {
+    "step_range": [
+      950000,
+      995000
+    ],
+    "mean": 9412.110799999999,
+    "min": 8857.904,
+    "max": 9649.83
+  },
+  "assignment_return_threshold_met": true,
+  "limitations": [
+    "One training seed; ten evaluation episodes are not ten training seeds.",
+    "Last evaluation is at step 995000; final checkpoint was not separately evaluated."
+  ]
+}
