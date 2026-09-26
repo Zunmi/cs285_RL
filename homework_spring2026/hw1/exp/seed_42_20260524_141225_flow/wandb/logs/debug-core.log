@@ -1,0 +1,8 @@
+{"time":"2026-05-24T14:12:28.742204+08:00","level":"INFO","msg":"main: starting server","port-filename":"/var/folders/vn/3w20hhd17kj4g9tqmtgmh8yc0000gn/T/tmphh9qg39v/port-4430.txt","pid":4430,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-05-24T14:12:28.743165+08:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":4430}
+{"time":"2026-05-24T14:12:28.743139+08:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/var/folders/vn/3w20hhd17kj4g9tqmtgmh8yc0000gn/T/wandb-4430-4435-2830709676/socket","Net":"unix"}}
+{"time":"2026-05-24T14:12:28.827039+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1"}
+{"time":"2026-05-24T14:12:28.883343+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"3ghsihea","id":"1"}
+{"time":"2026-05-24T14:12:30.75404+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"3ghsihea","id":"1"}
+{"time":"2026-05-24T14:20:24.080898+08:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"3ghsihea","id":"1"}
+{"time":"2026-05-24T14:20:24.086785+08:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"3ghsihea","id":"1"}
