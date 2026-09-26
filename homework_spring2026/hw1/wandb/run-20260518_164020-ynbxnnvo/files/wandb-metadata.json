@@ -1,0 +1,33 @@
+{
+  "os": "macOS-26.4-arm64-arm-64bit",
+  "python": "CPython 3.11.15",
+  "startedAt": "2026-05-18T08:40:20.826248Z",
+  "args": [
+    "--policy-type",
+    "mse",
+    "--exp-name",
+    "mse_run1"
+  ],
+  "program": "-m hw1_imitation.train",
+  "git": {
+    "remote": "https://github.com/berkeleydeeprlcourse/homework_spring2026.git",
+    "commit": "59e40fc035374fd9b29195a4c3bef02690b515b5"
+  },
+  "email": "13029579578@163.com",
+  "root": "/Users/huanghao/Desktop/cs285_RL/homework_spring2026/hw1",
+  "host": "finddeMacBook-Pro.local",
+  "executable": "/Users/huanghao/Desktop/cs285_RL/homework_spring2026/hw1/.venv/bin/python",
+  "cpu_count": 11,
+  "cpu_count_logical": 11,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "201726918656"
+    }
+  },
+  "memory": {
+    "total": "19327352832"
+  },
+  "apple": {},
+  "writerId": "ks95i9181db1j22503ao8qjaujxdutdy"
+}
