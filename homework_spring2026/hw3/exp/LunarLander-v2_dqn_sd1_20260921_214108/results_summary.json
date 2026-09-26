@@ -1,0 +1,20 @@
+{
+  "environment": "LunarLander-v2",
+  "seed": 1,
+  "configured_training_steps": 500000,
+  "saved_log_time": "20260921_223135",
+  "last_saved_update_step": 499000,
+  "evaluation_count": 50,
+  "episodes_per_evaluation": 10,
+  "best_eval_mean": 280.33972,
+  "best_eval_step": 450000,
+  "first_eval_mean_at_or_above_target": 170000,
+  "eval_means_at_or_above_target": 23,
+  "last_logged_eval_step": 490000,
+  "last_logged_eval_mean": 210.36491,
+  "last_10_eval_mean": 223.31937200000002,
+  "training_episode_count": 2028,
+  "best_training_episode_return": 325.36505,
+  "target": 200,
+  "evaluation_scope": "Existing training logs; final checkpoint not re-evaluated"
+}

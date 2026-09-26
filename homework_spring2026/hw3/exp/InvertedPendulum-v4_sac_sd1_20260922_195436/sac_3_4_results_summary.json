@@ -1,0 +1,110 @@
+{
+  "stage": "3.4 InvertedPendulum sanity check",
+  "run": "InvertedPendulum-v4_sac_sd1_20260922_195436",
+  "total_steps_completed": 50000,
+  "completion_evidence": "Saved W&B output.log reports 50000/50000",
+  "training_loop_seconds": 866,
+  "evaluation": [
+    {
+      "step": 0,
+      "mean": 5.4,
+      "std": 2.0099752,
+      "min": 3.0,
+      "max": 10.0
+    },
+    {
+      "step": 5000,
+      "mean": 8.2,
+      "std": 8.506468,
+      "min": 3.0,
+      "max": 32.0
+    },
+    {
+      "step": 10000,
+      "mean": 79.0,
+      "std": 8.6602545,
+      "min": 68.0,
+      "max": 94.0
+    },
+    {
+      "step": 15000,
+      "mean": 57.8,
+      "std": 5.6,
+      "min": 53.0,
+      "max": 73.0
+    },
+    {
+      "step": 20000,
+      "mean": 48.1,
+      "std": 0.9433981,
+      "min": 47.0,
+      "max": 50.0
+    },
+    {
+      "step": 25000,
+      "mean": 907.6,
+      "std": 277.19998,
+      "min": 76.0,
+      "max": 1000.0
+    },
+    {
+      "step": 30000,
+      "mean": 1000.0,
+      "std": 0.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    {
+      "step": 35000,
+      "mean": 173.4,
+      "std": 275.63205,
+      "min": 71.0,
+      "max": 1000.0
+    },
+    {
+      "step": 40000,
+      "mean": 1000.0,
+      "std": 0.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    {
+      "step": 45000,
+      "mean": 1000.0,
+      "std": 0.0,
+      "min": 1000.0,
+      "max": 1000.0
+    }
+  ],
+  "full_score_eval_steps": [
+    30000,
+    40000,
+    45000
+  ],
+  "late_train": {
+    "episode_end_step_min": 40000,
+    "count": 10,
+    "mean": 1000.0,
+    "full_score_count": 10
+  },
+  "late_updates": {
+    "step_range": [
+      40000,
+      49000
+    ],
+    "count": 10,
+    "means": {
+      "q_values": 74.93905715942383,
+      "target_values": 74.82942581176758,
+      "critic_loss": 3.020119768381119,
+      "entropy": -1.026575767993927,
+      "actor_loss": -76.84964065551758
+    }
+  },
+  "logged_update_metrics_all_finite": true,
+  "limitations": [
+    "Last logged evaluation is at step 45000; final step-50000 checkpoint was not separately evaluated.",
+    "Single training seed; performance temporarily dropped at step 35000."
+  ],
+  "status": "InvertedPendulum sanity check passed; HalfCheetah experiment for Section 3.4 remains."
+}
