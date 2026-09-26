@@ -1,0 +1,38 @@
+{
+  "Single-Q": {
+    "first_mean_at_least_1500": null,
+    "peak": {
+      "step": 490000,
+      "return": 833.39777
+    },
+    "last": {
+      "step": 495000,
+      "return": 822.8921
+    },
+    "last_10_eval_mean": 770.2873350000001,
+    "last_10_q_mean": 269.278271484375,
+    "last_10_target_mean": 269.4147613525391,
+    "num_evaluations_at_least_1500": 0,
+    "num_evaluations": 100
+  },
+  "Clipped double-Q": {
+    "first_mean_at_least_1500": {
+      "step": 190000,
+      "return": 1500.0139
+    },
+    "peak": {
+      "step": 435000,
+      "return": 3180.6597
+    },
+    "last": {
+      "step": 495000,
+      "return": 1480.6155
+    },
+    "last_10_eval_mean": 2388.9671200000003,
+    "last_10_q_mean": 274.08515014648435,
+    "last_10_target_mean": 274.0164825439453,
+    "num_evaluations_at_least_1500": 59,
+    "num_evaluations": 100
+  },
+  "interpretation": "Clipped double-Q reaches the assignment threshold and obtains substantially higher returns. The clipped target uses the smaller of two target critics, reducing optimistic target errors. Q magnitudes alone are not a direct performance measure because the two policies visit different states and actions."
+}

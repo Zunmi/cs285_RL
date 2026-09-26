@@ -1,0 +1,51 @@
+{
+  "fixed_temperature_run": "HalfCheetah-v4_sac_sd1_20260922_221537",
+  "auto_tuned_run": "HalfCheetah-v4_sac_autotune_sd1_20260923_131844",
+  "fixed_temperature": {
+    "first_mean_at_least_6000": {
+      "step": 265000,
+      "return": 6056.7646
+    },
+    "peak": {
+      "step": 910000,
+      "return": 9664.596
+    },
+    "last": {
+      "step": 995000,
+      "return": 9499.073
+    },
+    "last_10_mean": 9412.110799999999,
+    "last_10_min": 8857.904,
+    "last_10_max": 9649.83,
+    "num_evaluations_at_least_6000": 146,
+    "num_evaluations": 200
+  },
+  "auto_tuned_temperature": {
+    "first_mean_at_least_6000": {
+      "step": 225000,
+      "return": 6032.896
+    },
+    "peak": {
+      "step": 985000,
+      "return": 9346.229
+    },
+    "last": {
+      "step": 995000,
+      "return": 9238.8125
+    },
+    "last_10_mean": 9219.49745,
+    "last_10_min": 9091.502,
+    "last_10_max": 9346.229,
+    "num_evaluations_at_least_6000": 152,
+    "num_evaluations": 200
+  },
+  "auto_temperature": {
+    "initial": 0.09999001026153564,
+    "minimum": 0.01997247152030468,
+    "minimum_step": 31000,
+    "maximum": 0.12486652284860611,
+    "maximum_step": 986000,
+    "final": 0.12375029921531677,
+    "last_10_mean": 0.12356542944908142
+  }
+}
