@@ -1,0 +1,21 @@
+{
+  "environment": "MsPacmanNoFrameskip-v4",
+  "seed": 1,
+  "configured_training_steps": 1000000,
+  "saved_log_time": "20260922_000942",
+  "last_saved_update_step": 999000,
+  "evaluation_count": 100,
+  "episodes_per_evaluation": 10,
+  "best_eval_mean": 2113.0,
+  "best_eval_step": 860000,
+  "first_eval_mean_at_or_above_target": 550000,
+  "eval_means_at_or_above_target": 16,
+  "last_logged_eval_step": 990000,
+  "last_logged_eval_mean": 1380.0,
+  "last_10_eval_mean": 1562.8,
+  "training_episode_count": 1485,
+  "best_training_episode_return": 4660.0,
+  "target": 1500,
+  "evaluation_scope": "Existing training logs; final checkpoint not re-evaluated",
+  "training_curve_aggregation": "Mean of episode returns grouped by episode-end step into [start, end) bins of 10000 steps; plotted at bin end."
+}
